@@ -5,7 +5,7 @@
 * Teachers that have access to students
 * Students
 
-# Data and roles
+# Data and functionality
 1. Administrator
 * Contain Admininstrator information
 * Connected to other Administrators
@@ -14,12 +14,13 @@
 
 2. Teachers 
 * Contain teacher information
-* Contain an array of assignments
+* Connected to Adminstrator and Students
 * Give assignments to students
 
 3. Students
 * Contain student information
-* Contain a queue of assignments
+* Connected to at least one teacher
+* Have access to queue of assignments
 
 # Implementation
 * Will be implemented with an undirected graph, nodes will be class based objects
